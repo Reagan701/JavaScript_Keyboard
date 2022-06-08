@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" onkeydown="type(event)" onkeyup="remove(event)">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Keyboard</title>
+</head>
+<body style="background-color: darkblue">
+    <div id="ResultContainer">
+        <textarea id="result" type="text" rows="10" cols="200" readonly></textarea>
+    </div>
+    <div class="RowOne">
+        <button onclick="addChar('Q')">Q</button>
+        <button onclick="addChar('W')">W</button>
+        <button onclick="addChar('E')">E</button>
+        <button onclick="addChar('R')">R</button>
+        <button onclick="addChar('T')">T</button>
+        <button onclick="addChar('Y')">Y</button>
+        <button onclick="addChar('U')">U</button>
+        <button onclick="addChar('I')">I</button>
+        <button onclick="addChar('O')">O</button>
+        <button onclick="addChar('P')">P</button>
+        <button onclick="removeChar()">Backspace</button>
+    </div>
+    <div class="RowTwo">
+        <button onclick="addChar('A')">A</button>
+        <button onclick="addChar('S')">S</button>
+        <button onclick="addChar('D')">D</button>
+        <button onclick="addChar('F')">F</button>
+        <button onclick="addChar('G')">G</button>
+        <button onclick="addChar('H')">H</button>
+        <button onclick="addChar('J')">J</button>
+        <button onclick="addChar('K')">K</button>
+        <button onclick="addChar('L')">L</button>
+    </div>
+    <div class="RowThree">
+        <button onclick="addChar('Z')">Z</button>
+        <button onclick="addChar('X')">X</button>
+        <button onclick="addChar('C')">C</button>
+        <button onclick="addChar('V')">V</button>
+        <button onclick="addChar('B')">B</button>
+        <button onclick="addChar('N')">N</button>
+        <button onclick="addChar('M')">M</button>
+    </div>
+    <!-- <div class="RowFour">
+        <button id="Spacebar" onclick="addChar(' ')"></button>
+    </div> -->
+
+    <script src="./code.js"></script>
+</body>
+</html>

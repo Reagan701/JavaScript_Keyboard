@@ -1,0 +1,53 @@
+button{
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+button:active{
+    background-color: white;
+    color: black;
+}
+
+#Spacebar{
+    width: 200px;
+}
+
+.active{
+    background-color: white;
+    color: black;
+}
+
+.RowOne{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.RowTwo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.RowThree{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 11px;
+}
+
+.RowFour{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#ResultContainer,
+#result{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
